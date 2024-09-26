@@ -3,7 +3,7 @@ services:
   mongodb:
     build:
       context: mongo
-    image: ${REPO}/rs-mongodb:${TAG}
+    image: amelokoemmanuel/robotshop/rs-mongodb:latest
     networks:
       - robot-shop
     logging: &logging
