@@ -97,7 +97,7 @@ services:
   ratings:
     build:
       context: ratings
-    image: ${REPO}/rs-ratings:${TAG}
+    image: amelokoemmanuel/robotshop/rs-ratings:latest
     environment:
       APP_ENV: prod
     networks:
