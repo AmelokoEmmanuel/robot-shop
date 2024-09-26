@@ -82,7 +82,7 @@ services:
   shipping:
     build:
       context: shipping
-    image: ${REPO}/rs-shipping:${TAG}
+    image: amelokoemmanuel/robotshop/rs-shipping:latest
     depends_on:
       - mysql
     networks:
