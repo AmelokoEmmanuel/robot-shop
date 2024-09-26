@@ -57,7 +57,7 @@ services:
   cart:
     build:
       context: cart
-    image: ${REPO}/rs-cart:${TAG}
+    image: amelokoemmanuel/robotshop/rs-cart:latest
     depends_on:
       - redis
     networks:
