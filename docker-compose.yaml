@@ -132,7 +132,7 @@ services:
   dispatch:
     build:
       context: dispatch
-    image: ${REPO}/rs-dispatch:${TAG}
+    image: amelokoemmanuel/robotshop/rs-dispatch:latest
     depends_on:
       - rabbitmq
     networks:
