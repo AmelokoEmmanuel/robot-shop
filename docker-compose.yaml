@@ -114,7 +114,7 @@ services:
   payment:
     build:
       context: payment
-    image: ${REPO}/rs-payment:${TAG}
+    image: amelokoemmanuel/robotshop/rs-payment:latest
     depends_on:
       - rabbitmq
     networks:
