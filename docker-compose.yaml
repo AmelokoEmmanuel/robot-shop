@@ -41,7 +41,7 @@ services:
   user:
     build:
       context: user
-    image: ${REPO}/rs-user:${TAG}
+    image: amelokoemmanuel/robotshop/rs-user:latest
     depends_on:
       - mongodb
       - redis
