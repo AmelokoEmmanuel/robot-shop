@@ -26,7 +26,7 @@ services:
   catalogue:
     build:
       context: catalogue
-    image: ${REPO}/rs-catalogue:${TAG}
+    image: amelokoemmanuel/robotshop/rs-catalogue:latest
     depends_on:
       - mongodb
     networks:
