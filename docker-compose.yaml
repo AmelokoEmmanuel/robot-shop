@@ -72,7 +72,7 @@ services:
   mysql:
     build:
       context: mysql
-    image: ${REPO}/rs-mysql-db:${TAG}
+    image: amelokoemmanuel/robotshop/rs-mysql-db:latest
     cap_add:
       - NET_ADMIN
     networks:
